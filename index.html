@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>Sound Animal Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <center>
+        <div class="col-xs-12 header_div text-center">
+            <h1>Animal Sound Detector</h1>
+            <h2>Play these animal sounds to you laptop/phone. A cat, dog, lion and a cow.</h2>
+        </div>
+        <div class="main_div">
+
+            <button class="btn btn-warning" onclick="startClassification()" id="button"> Start </button>
+            <h1 id="result_label"> </h1>
+            <h1 id="accuracy"> Animal Noise -  </h1>
+            <br>
+            <img id="animals" height="300" width="300" src="">
+        </div>
+        <div id="copyright" class="copyright-footer">
+            Developed By - Prince
+        </div>
+    </center>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

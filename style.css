@@ -1,0 +1,12 @@
+body{
+    background-color: violet;
+}
+
+h1{
+    color: gold;
+}
+
+#button{
+    background-color: lime;
+    font-size: 30px;
+}
